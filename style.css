@@ -1,0 +1,78 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color:whitesmoke;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url('https://images.unsplash.com/photo-1513605177423-fecee1533c2e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=889&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card{
+    background-color: rgba(0, 0, 0, 0.52);
+    color:white;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    margin:1rem;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search button{
+    background: none;
+    color: inherit;
+    border: none;
+    cursor: pointer;
+    outline: inherit;
+    margin: 0.5em;
+    border-radius: 50%;
+    width: 46px;
+    height: 46px;
+    cursor: pointer;
+    outline: none;
+    transition: 0.2s ease-in-out;
+    background-color: rgba(83, 81, 81, 0.719);
+}
+.search-bar{
+    height:20px;
+    width: 250px;
+    border-radius: 24px;
+    border: solid 1px grey ;
+    outline: none;
+    padding: 0.5rem 1.5rem;
+    font-size: 150%;
+    color: honeydew;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+    background-color: rgba(59, 55, 55, 0.507);
+}
+.search button:hover{
+    background-color: grey;
+}
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+.txt{
+ font-size: 1.5rem;
+}
+.line{
+    background-color: #fff;
+    height: 0.01rem;
+    padding: 0;
+    margin-bottom: 1rem;
+}
+.flex{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 0px;
+    
+}
+.temp{
+    margin-bottom:0px;
+}
